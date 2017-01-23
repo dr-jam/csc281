@@ -15,27 +15,27 @@ p {
   text-indent: 3em;
 }
 
-table thead {
+.schedule thead {
   font-weight: bold;
 }
 
-table .colWeek {
+.schedule .colWeek {
   width: 10%;
 }
 
-table .colDates {
+.schedule .colDates {
   width: 10%;
 }
 
-table .colTopic {
+.schedule .colTopic {
   width: 15%;
 }
 
-table .colMaterial {
+.schedule .colMaterial {
   width: 60%;
 }
 
-table td {
+.schedule td {
   padding: 10px;
   vertical-align: top;
 }
