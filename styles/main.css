@@ -5,6 +5,7 @@
 
 h1, h2, h3 {
   font-family: "Offside", serif;
+  margin-left: -10px;
 }
 
 h1 + p, h2 + p, h3 + p {
@@ -42,4 +43,10 @@ p {
 
 .resourceList {
   list-style-type: none;
+}
+
+.fullPageContent {
+  margin-left: 20px;
+  width: 90%;
+  max-width: 800px;
 }
