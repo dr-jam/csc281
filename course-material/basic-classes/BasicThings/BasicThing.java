@@ -10,4 +10,8 @@ public class BasicThing {
   public BasicThing(Double size) {
     this.size = size;
   }
+
+  public void use() {
+    System.out.println("I'm a basic thing so I sit in the corner and whirrrrrrrr");
+  }
 }
