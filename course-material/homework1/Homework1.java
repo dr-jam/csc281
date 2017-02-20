@@ -130,7 +130,11 @@ public class Homework1 {
    *
    * Hint: use a method in the math package that we covered in class.
    * 
-   * Your method will be ran with the following input: 1.5 5.1 1.0 -4.2
+   * Your method will be ran with the following input: 
+   * 1.5 
+   * 5.1 
+   * 1.0 
+   * -4.2
    */
 
 
@@ -142,7 +146,11 @@ public class Homework1 {
    * data type. The output of this method is the printed box. This means there will be no return
    * statement in this method.
    *
-   * Here is what the output of draw4x4('x') should look like: xxxx x x x x xxxx
+   * Here is what the output of draw4x4('x') should look like: 
+   * xxxx
+   * x  x 
+   * x  x
+   * xxxx
    *
    * Your method will be ran with the following input: '-' '4'
    */
@@ -156,7 +164,9 @@ public class Homework1 {
    *
    * This example: citationName("Jack", "Beatty") should return: "Beatty, J."
    *
-   * Your method will be ran with the following input: "Alastair" "Reynolds" "Grace" "Hopper"
+   * Your method will be ran with the following input: 
+   * "Alastair" "Reynolds"
+   * "Grace" "Hopper"
    */
 
   /*
@@ -165,8 +175,10 @@ public class Homework1 {
    * 1) Write a method named "min3" that takes 3 doubles as parameters and returns the lowest
    * value of the three.
    *
-   * Print what your min3 method returns for the following triples of doubles as input: 1.0 2.0
-   * 3.0 4.0 3.0 2.0 0.5 0.1 0.5
+   * Print what your min3 method returns for the following triples of doubles as input: 
+   * 1.0 2.0 3.0
+   * 4.0 3.0 2.0 
+   * 0.5 0.1 0.5
    */
 
   /*
