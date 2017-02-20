@@ -1,16 +1,23 @@
 /**
  * Homework 1 for CSC-281.001 Spring 2017
  * 
- * This assignment consists of 7 problems. Each problem is worth 10 points for
- * an assignment total of 70 points.
+ * Your codename:
  * 
- * Problem 1 asks you to modify existing code for three subproblems.
- * 
- * The remaining six problems each require you to write a method that satisfies
- * the requirements stated in their descriptions.
+ * This assignment consists of 7 problems. Problem 1 asks you to modify existing
+ * code for three subproblems.The remaining six problems each require you to 
+ * write a method that satisfies the requirements stated in their descriptions.
  * 
  * You are required to create a javadoc style comment for each method you
  * create. See the sample method named add3 for an example to follow. 
+ * 
+ * Your homework will be graded in the following manner:
+ * 70 points for correctness.
+ * 		10 points per problem.
+ * 		Does your input match the expected output exactly?
+ * 30 points for following standards. Evaluation considerations for these points:
+ *		Did you use vi to craft your code?
+ *		Are camel case and Pascal case used correctly?
+ * 		Did you follow the the submission instructions properly?
  */
 
 import java.math.*; // math has been imported for you
@@ -130,11 +137,7 @@ public class Homework1 {
    *
    * Hint: use a method in the math package that we covered in class.
    * 
-   * Your method will be ran with the following input: 
-   * 1.5 
-   * 5.1 
-   * 1.0 
-   * -4.2
+   * Your method will be ran with the following input: 1.5 5.1 1.0 -4.2
    */
 
 
@@ -148,7 +151,7 @@ public class Homework1 {
    *
    * Here is what the output of draw4x4('x') should look like: 
    * xxxx
-   * x  x 
+   * x  x
    * x  x
    * xxxx
    *
@@ -164,9 +167,7 @@ public class Homework1 {
    *
    * This example: citationName("Jack", "Beatty") should return: "Beatty, J."
    *
-   * Your method will be ran with the following input: 
-   * "Alastair" "Reynolds"
-   * "Grace" "Hopper"
+   * Your method will be ran with the following input: "Alastair" "Reynolds", "Grace" "Hopper"
    */
 
   /*
@@ -175,10 +176,8 @@ public class Homework1 {
    * 1) Write a method named "min3" that takes 3 doubles as parameters and returns the lowest
    * value of the three.
    *
-   * Print what your min3 method returns for the following triples of doubles as input: 
-   * 1.0 2.0 3.0
-   * 4.0 3.0 2.0 
-   * 0.5 0.1 0.5
+   * Print what your min3 method returns for the following triples of doubles as input: 1.0 2.0
+   * 3.0, 4.0 3.0 2.0, 0.5 0.1 0.5
    */
 
   /*
