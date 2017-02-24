@@ -71,10 +71,10 @@ public class Homework1 {
     
     System.out.println("===Problem 7===");
     // Uncomment to print the results of calling your isPalindrome method with the following input:
-    //System.out.println(hw1.isPalinedrome("racecar"));
-    //System.out.println(hw1.isPalinedrome("cat"));
-    //System.out.println(hw1.isPalinedrome("hannah"));
-    //System.out.println(hw1.isPalinedrome("saippuakivikauppias"));
+    //System.out.println(hw1.isPalindrome("racecar"));
+    //System.out.println(hw1.isPalindrome("cat"));
+    //System.out.println(hw1.isPalindrome("hannah"));
+    //System.out.println(hw1.isPalindrome("saippuakivikauppias"));
   }
 
   /**
@@ -99,14 +99,15 @@ public class Homework1 {
    */
   public void problem1() {
 
-    double result1 = 5 / 4;
+    double result1 = 5.0 / 4.0;
+    System.out.println(result1);
     if (result1 == 1.25) {
       System.out.println("Problem 1a: successfully completed!");
     } else {
       System.out.println("Problem 1a: not quite right.");
     }
 
-    int result2 = 4 * 2;
+    double result2 = Math.pow(4,2);
     if (result2 == 16) {
       System.out.println("Problem 1b: successfully completed!");
     } else {
