@@ -10,7 +10,7 @@ public class Pokedex {
     kantoPokedex.capture("Bulbasaur");
     kantoPokedex.capture("Squirtle");
     
-    kantoPokedex.status("Pikechu");
+    kantoPokedex.status("Pikachu");
     kantoPokedex.status("Bulbasaur");
   }
   
