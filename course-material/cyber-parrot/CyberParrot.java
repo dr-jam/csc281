@@ -1,3 +1,10 @@
+/* Maps and file input lab. Use the io-examples and the Pokedex 
+ * code in the course-material folder as samples for completing
+ * this lab. More information about maps can be found here:
+ * https://docs.oracle.com/javase/tutorial/collections/interfaces/map.html
+ * 
+ * Complete all of the sections marked as TODO.
+ */
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
