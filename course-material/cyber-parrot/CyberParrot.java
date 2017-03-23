@@ -94,6 +94,16 @@ public class CyberParrot {
     If the counter is greater than or equal to the generated random 
       number, print the current word with System.out.print (not println!).  
      */
+     
+     /*
+     get random number between 0 and this.wordCount
+     int counter = 0;
+     for all keys in the map:
+       get the value associated with the key
+       add that value to the counter
+       if the new value of the counter is greater than the random number:
+         return the current key
+     */
   }
   
   /**
