@@ -15,7 +15,7 @@
  * -Make a list per shape to store instances of that shape.
  * 
  * -Read through each shape specification from the input and add a new instance of that shape to the
- * appropriate shape list. For example, the input of 3 100 100 would result on code like the
+ * appropriate shape list. For example, the input of 3 100 100 would result in code like the
  * following in the readAndGenerateShapes method of the Surface class: this.tris.add(new Tri(100,
  * 100));
  * 
