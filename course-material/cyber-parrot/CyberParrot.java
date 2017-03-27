@@ -85,7 +85,8 @@ public class CyberParrot {
   public void speak() {
     /*TODO:
     Generate a number between 0 and this.word count using:
-      Random().nextInt(this.wordCount)
+      Random randGen = new Random();
+      int randomNumber = random.nextInt(this.wordCount);
     Create an int counter with an initial value of 0.
     Loop through every word in this.wordFrequencies.
     For each word, use that word as a key in this.wordFrequencies and get its 
