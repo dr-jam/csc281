@@ -13,7 +13,6 @@ public class BasicShape {
   public int y;
 
   public BasicShape(int x, int y) {
-    // TODO Auto-generated constructor stub
     this.x = x;
     this.y = y;
   }
