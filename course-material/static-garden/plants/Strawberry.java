@@ -22,12 +22,12 @@ public class Strawberry extends Plant {
     
     if(!this.isSprout && !this.isFullGrown && !this.isHarvested) {
       //seed to sprout
-      if(Math.random() > (double)(this.daysSincePlanted / AVG_GERMINATION)) {
+      if(Math.random() < (double)(this.daysSincePlanted / AVG_GERMINATION)) {
         this.isSprout = true;
       }
     }else if (this.isSprout){
       //sprout to full plant
-      if(Math.random() > (double)(this.daysSincePlanted / AVG_MATURITY)) {
+      if(Math.random() < (double)(this.daysSincePlanted / AVG_MATURITY)) {
         this.isFullGrown = true;
         this.isSprout = false;
       }
