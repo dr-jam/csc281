@@ -5,7 +5,7 @@ import java.util.List;
 
 abstract public class Plant{
 
-  static List<String> growthLog;
+  public static List<String> growthLog;
   private static int idCount;
   
   static {    

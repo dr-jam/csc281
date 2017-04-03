@@ -39,7 +39,9 @@ public class Garden {
         plant.grow(1);
       }
     }
-    
+    for(String logEntry : Plant.growthLog) {
+      System.out.println(logEntry);
+    }
   }
 
 }

@@ -19,17 +19,22 @@ public class Strawberry extends Plant {
   @Override
   public void grow(int days) {
     this.daysSincePlanted += days;
-    
+
+    double random = Math.random();   
+    System.out.println("random value for strawberry " + this.id + " for age " + this.daysSincePlanted + " is " + random);
+ 
     if(!this.isSprout && !this.isFullGrown && !this.isHarvested) {
       //seed to sprout
-      if(Math.random() < (double)(this.daysSincePlanted / AVG_GERMINATION)) {
+      if(random < (double)this.daysSincePlanted / (double)AVG_GERMINATION) {
         this.isSprout = true;
+        Plant.growthLog.add("Strawberry " + this.id + " has sprouted at age" + this.daysSincePlanted);
       }
     }else if (this.isSprout){
       //sprout to full plant
-      if(Math.random() < (double)(this.daysSincePlanted / AVG_MATURITY)) {
+      if(random < (double)this.daysSincePlanted / (double)AVG_MATURITY) {
         this.isFullGrown = true;
         this.isSprout = false;
+        Plant.growthLog.add("Strawberry " + this.id + " is now fully grown at age " + this.daysSincePlanted);
       }
     }
     
@@ -51,6 +56,7 @@ public class Strawberry extends Plant {
     if(this.isFullGrown) {
       this.isFullGrown = false;
       this.isHarvested = true;
+      Plant.growthLog.add("Strawberry " + this.id + " has been harvested.");
       return 1;
     }else{
       //not ready or already harvested.
