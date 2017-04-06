@@ -32,7 +32,7 @@ public class ScopeKid extends ScopeParent {
     System.out.println(this.publicInstanceKid);
     System.out.println(this.protectedInstanceKid);
     // Instance member variables follow the same rules as static member variables; private is disallowed.
-    //System.out.println(this.privateInstanceKid);
+    System.out.println(this.privateInstanceKid);
     
     System.out.println("Testing instance members of ScopeParent in ScopeKid");
     System.out.println(this.publicInstanceParent);
