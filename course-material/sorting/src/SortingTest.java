@@ -38,22 +38,22 @@ public class SortingTest {
   private void testAllSorters(int[] data) {
    
     System.out.print("Bubble Ascending: ");
-    System.out.println(testBubbleAscending(data));
+    System.out.println(testBubbleAscending(data.clone()));
     
     System.out.print("Bubble Descending: ");
-    System.out.println(testBubbleDescending(data));
+    System.out.println(testBubbleDescending(data.clone()));
     
     System.out.print("Selection Ascending: ");
-    System.out.println(testSelectionAscending(data));
+    System.out.println(testSelectionAscending(data.clone()));
     
     System.out.print("Selection Descending: ");
-    System.out.println(testSelectionDescending(data));
+    System.out.println(testSelectionDescending(data.clone()));
     
     System.out.print("Insertion Ascending: ");
-    System.out.println(testInsertionAscending(data));
+    System.out.println(testInsertionAscending(data.clone()));
     
     System.out.print("Insertion Descending: ");
-    System.out.println(testInsertionDescending(data));
+    System.out.println(testInsertionDescending(data.clone()));
 
   }
   
