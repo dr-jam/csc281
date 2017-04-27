@@ -106,7 +106,7 @@ public class SortingTest {
   private boolean testInsertionAscending(int[] data) {
     int[] sortedData = Insertion.ascending(data); 
     int[] check = {1, 2, 3, 4, 5};
-    for (int i = 0; i < data.length; i++) {
+    for (int i = 0; i < sortedData.length; i++) {
       if (sortedData[i] != check[i]) {
         return false;
       }
