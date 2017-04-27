@@ -82,11 +82,25 @@ public class SortingTest {
   }
   
   private boolean testSelectionAscending(int[] data) {
-    return false;
+    Selection.ascending(data);
+    int[] check = {1, 2, 3, 4, 5};
+    for (int i = 0; i < data.length; i++) {
+      if (data[i] != check[i]) {
+        return false;
+      }
+    }
+    return true; 
   }
   
   private boolean testSelectionDescending(int[] data) {
-    return false;
+    Selection.descending(data);
+    int[] check = {5, 4, 3, 2, 1};
+    for (int i = 0; i < data.length; i++) {
+      if (data[i] != check[i]) {
+        return false;
+      }
+    }
+    return true; 
   }
 
   private boolean testInsertionAscending(int[] data) {
