@@ -115,7 +115,14 @@ public class SortingTest {
   } 
   
   private boolean testInsertionDescending(int[] data) {
-    return false;
+    int[] sortedData = Insertion.descending(data); 
+    int[] check = {5, 4, 3, 2, 1};
+    for (int i = 0; i < sortedData.length; i++) {
+      if (sortedData[i] != check[i]) {
+        return false;
+      }
+    }
+    return true;    
   }
   
   private boolean isSorted(int[] data, SortDirection direction) {
