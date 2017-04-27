@@ -77,6 +77,8 @@ public class SortingTest {
   }
 
   private boolean testInsertionAscending(int[] data) {
+    int[] sortedData = Insertion.ascending(data);
+    
     return false;
   }
   
