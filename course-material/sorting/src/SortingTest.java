@@ -60,12 +60,25 @@ public class SortingTest {
 
   private boolean testBubbleAscending(int[] data) {
     Bubble.Ascending(data);
+    int[] check = {1, 2, 3, 4, 5};
+    for (int i = 0; i < data.length; i++) {
+    	if (data[i] != check[i]) {
+    		return false;
+    	}
+    }
     return true;
   }
   
   private boolean testBubbleDescending(int[] data) {
     Bubble.Descending(data);
+    int[] check = {5, 4, 3, 2, 1};
+    for (int i = 0; i < data.length; i++) {
+    	if (data[i] != check[i]) {
+    		return false;
+    	}
+    }
     return true;
+    
   }
   
   private boolean testSelectionAscending(int[] data) {
@@ -87,6 +100,8 @@ public class SortingTest {
   }
   
   private boolean isSorted(int[] data, SortDirection direction) {
-    return false;
+  return false;
   }
 }
+
+
