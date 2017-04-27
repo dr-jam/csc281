@@ -105,31 +105,20 @@ public class SortingTest {
   }
 
   private boolean testInsertionAscending(int[] data) {
-    int[] sortedData = Insertion.ascending(data); 
-    int[] check = {1, 2, 3, 4, 5};
-    for (int i = 0; i < sortedData.length; i++) {
-      if (sortedData[i] != check[i]) {
-        return false;
-      }
-    }
-    return true;    
+    int[] sortedData = Insertion.ascending(data);
+    boolean checkSort = isSorted(sortedData, SortDirection.ASCENDING);
+    return checkSort;
   } 
   
   private boolean testInsertionDescending(int[] data) {
     int[] sortedData = Insertion.descending(data); 
-    int[] check = {5, 4, 3, 2, 1};
-    for (int i = 0; i < sortedData.length; i++) {
-      if (sortedData[i] != check[i]) {
-        return false;
-      }
-    }
-    return true;    
-
+    boolean checkSort = isSorted(sortedData, SortDirection.DESCENDING);
+    return checkSort;
   }
   private boolean isSorted(int[] data, SortDirection direction) {
 
-		if (direction == SortingTest.SortDirection.ASCENDING) {
-			int n = data.length;
+  if (direction == SortingTest.SortDirection.ASCENDING) {
+    int n = data.length;
 
 			for (int i = 0; i < n; i++) {
 				for (int j = 1; j < (n - i); j++) {
